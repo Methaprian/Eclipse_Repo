@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BatchSuite">
+  <test thread-count="5" name="BatchExecution">
+    <classes>
+      <class name="com.trello.testingbytestng.ActiTimeTestNG"/>
+      <class name="com.trello.testingbytestng.GroupExecution_01_TestNG"/>
+      <class name="com.trello.testingbytestng.KGF"/>
+    </classes>
+  </test> <!-- BatchExecution -->
+</suite> <!-- BatchSuite -->
